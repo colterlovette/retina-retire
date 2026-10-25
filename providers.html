@@ -6,139 +6,193 @@
 <title>Recommended Providers &middot; The Retina Center of Western Colorado</title>
 <meta name="description" content="Retina practices in Colorado and Utah recommended by The Retina Center of Western Colorado.">
 <link rel="icon" href="assets/favicon.png" sizes="192x192">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
+<a class="skip-link" href="#main">Skip to main content</a>
+
 <header class="banner compact" role="banner">
   <div class="banner-inner">
-    <h1><a href="index.html">The Retina Center of Western Colorado</a></h1>
-    <p>Recommended Providers</p>
+    <p class="eyebrow"><a href="index.html">The Retina Center of Western Colorado</a></p>
+    <h1>Recommended Providers</h1>
   </div>
 </header>
 
 <nav class="site-nav" aria-label="Main">
   <ul>
     <li><a href="index.html">Home</a></li>
-    <li><a href="providers.html" aria-current="page">Recommended Providers</a></li>
+    <li><a href="providers.html" aria-current="page">Find a Provider</a></li>
     <li><a href="index.html#records">Medical Records</a></li>
   </ul>
 </nav>
 
-<main>
+<main id="main" class="wide">
 
-  <div class="message">
+  <div class="intro">
     <p>The retina practices below serve patients in Colorado and Utah. Please contact the office of your choice directly to arrange care &mdash; and let them know you were a patient of ours, so your records can be requested.</p>
   </div>
 
-  <hr class="rule">
+  <nav class="jump" aria-label="Jump to a region">
+    <p class="jump-label">Colorado</p>
+    <ul>
+      <li><a href="#grand-junction">Grand Junction</a></li>
+      <li><a href="#montrose">Montrose</a></li>
+      <li><a href="#delta">Delta</a></li>
+      <li><a href="#southern-colorado">Southern Colorado</a></li>
+      <li><a href="#denver">Denver</a></li>
+      <li><a href="#northern-colorado">Northern Colorado</a></li>
+      <li><a href="#durango">Durango</a></li>
+    </ul>
+    <p class="jump-label">Utah</p>
+    <ul>
+      <li><a href="#northern-utah">Northern Utah</a></li>
+      <li><a href="#southern-utah">Southern Utah</a></li>
+    </ul>
+  </nav>
 
   <section class="provider-region" id="colorado" aria-labelledby="colorado-heading">
     <h2 id="colorado-heading">Colorado Retina Practices</h2>
-
-    <div class="city-group">
-      <h3 id="grand-junction">Grand Junction</h3>
-      <ul class="provider-grid">
+    <div class="city-group" id="grand-junction">
+      <h3>Grand Junction</h3>
+      <ul class="practice-list">
         <li>
-          <span class="name">ICON Eye Care</span>
-          <span class="detail"><a href="tel:+19702560400">(970) 256-0400</a></span>
+          <div class="practice">
+            <span class="name">ICON Eye Care</span>
+          </div>
+          <a class="phone" href="tel:+19702560400">(970) 256-0400</a>
         </li>
       </ul>
     </div>
-    <div class="city-group">
-      <h3 id="montrose">Montrose</h3>
+    <div class="city-group" id="montrose">
+      <h3>Montrose</h3>
       <p class="group-note">Not retina. Injections only.</p>
-      <ul class="provider-grid">
+      <ul class="practice-list">
         <li>
-          <span class="name">Colorado West Ophthalmology</span>
-          <span class="detail"><a href="tel:+19702491210">(970) 249-1210</a></span>
+          <div class="practice">
+            <span class="name">Colorado West Ophthalmology</span>
+          </div>
+          <a class="phone" href="tel:+19702491210">(970) 249-1210</a>
         </li>
       </ul>
     </div>
-    <div class="city-group">
-      <h3 id="delta">Delta</h3>
+    <div class="city-group" id="delta">
+      <h3>Delta</h3>
       <p class="group-note">Not retina. Injections only.</p>
-      <ul class="provider-grid">
+      <ul class="practice-list">
         <li>
-          <span class="name">Colorado West Ophthalmology</span>
-          <span class="detail"><a href="tel:+19708748821">(970) 874-8821</a></span>
+          <div class="practice">
+            <span class="name">Colorado West Ophthalmology</span>
+          </div>
+          <a class="phone" href="tel:+19708748821">(970) 874-8821</a>
         </li>
       </ul>
     </div>
-    <div class="city-group">
-      <h3 id="southern-colorado">Southern Colorado</h3>
-      <ul class="provider-grid">
+    <div class="city-group" id="southern-colorado">
+      <h3>Southern Colorado</h3>
+      <ul class="practice-list">
         <li>
-          <span class="name">Retina Consultants of Southern Colorado</span>
-          <span class="detail"><a href="tel:+17194739595">(719) 473-9595</a></span>
+          <div class="practice">
+            <span class="name">Retina Consultants of Southern Colorado</span>
+          </div>
+          <a class="phone" href="tel:+17194739595">(719) 473-9595</a>
         </li>
         <li>
-          <span class="name">Colorado Eye Institute</span>
-          <span class="detail"><a href="tel:+17192581240">(719) 258-1240</a></span>
+          <div class="practice">
+            <span class="name">Colorado Eye Institute</span>
+          </div>
+          <a class="phone" href="tel:+17192581240">(719) 258-1240</a>
         </li>
         <li>
-          <span class="name">Front Range Retina</span>
-          <span class="detail"><a href="tel:+17208283937">(720) 828-3937</a></span>
-        </li>
-      </ul>
-    </div>
-    <div class="city-group">
-      <h3 id="denver">Denver</h3>
-      <ul class="provider-grid">
-        <li>
-          <span class="name">Colorado Retina Associates</span>
-          <span class="detail"><a href="tel:+13032611600">(303) 261-1600</a></span>
-        </li>
-        <li>
-          <span class="name">Retina Specialists of Colorado</span>
-          <span class="detail"><a href="tel:+17204432425">(720) 443-2425</a></span>
-          <span class="detail entry-note">Also has offices in Basalt and Edwards for injections only.</span>
-        </li>
-        <li>
-          <span class="name">UC Health / Anschutz</span>
-          <span class="detail"><a href="tel:+17208482020">(720) 848-2020</a></span>
-        </li>
-        <li>
-          <span class="name">Front Range Retina</span>
-          <span class="detail"><a href="tel:+13037723611">(303) 772-3611</a></span>
-        </li>
-        <li>
-          <span class="name">Rocky Mountain Retina Associates</span>
-          <span class="detail"><a href="tel:+13039008507">(303) 900-8507</a></span>
-        </li>
-        <li>
-          <span class="name">Denver Eye Surgeons</span>
-          <span class="detail"><a href="tel:+13032200393">(303) 220-0393</a></span>
-        </li>
-        <li>
-          <span class="name">Denver Retina Center</span>
-          <span class="detail"><a href="tel:+13032796600">(303) 279-6600</a></span>
+          <div class="practice">
+            <span class="name">Front Range Retina</span>
+          </div>
+          <a class="phone" href="tel:+17208283937">(720) 828-3937</a>
         </li>
       </ul>
     </div>
-    <div class="city-group">
-      <h3 id="northern-colorado">Northern Colorado</h3>
-      <ul class="provider-grid">
+    <div class="city-group" id="denver">
+      <h3>Denver</h3>
+      <ul class="practice-list">
         <li>
-          <span class="name">Eye Center of Northern Colorado</span>
-          <span class="detail"><a href="tel:+19702212222">(970) 221-2222</a></span>
+          <div class="practice">
+            <span class="name">Colorado Retina Associates</span>
+          </div>
+          <a class="phone" href="tel:+13032611600">(303) 261-1600</a>
         </li>
         <li>
-          <span class="name">Eye Care Center of Northern Colorado</span>
-          <span class="detail"><a href="tel:+13037723300">(303) 772-3300</a></span>
+          <div class="practice">
+            <span class="name">Retina Specialists of Colorado</span>
+            <span class="entry-note">Also has offices in Basalt and Edwards for injections only.</span>
+          </div>
+          <a class="phone" href="tel:+17204432425">(720) 443-2425</a>
+        </li>
+        <li>
+          <div class="practice">
+            <span class="name">UC Health / Anschutz</span>
+          </div>
+          <a class="phone" href="tel:+17208482020">(720) 848-2020</a>
+        </li>
+        <li>
+          <div class="practice">
+            <span class="name">Front Range Retina</span>
+          </div>
+          <a class="phone" href="tel:+13037723611">(303) 772-3611</a>
+        </li>
+        <li>
+          <div class="practice">
+            <span class="name">Rocky Mountain Retina Associates</span>
+          </div>
+          <a class="phone" href="tel:+13039008507">(303) 900-8507</a>
+        </li>
+        <li>
+          <div class="practice">
+            <span class="name">Denver Eye Surgeons</span>
+          </div>
+          <a class="phone" href="tel:+13032200393">(303) 220-0393</a>
+        </li>
+        <li>
+          <div class="practice">
+            <span class="name">Denver Retina Center</span>
+          </div>
+          <a class="phone" href="tel:+13032796600">(303) 279-6600</a>
         </li>
       </ul>
     </div>
-    <div class="city-group">
-      <h3 id="durango">Durango</h3>
-      <ul class="provider-grid">
+    <div class="city-group" id="northern-colorado">
+      <h3>Northern Colorado</h3>
+      <ul class="practice-list">
         <li>
-          <span class="name">Four Corners Eye Clinic</span>
-          <span class="detail"><a href="tel:+19705074225">(970) 507-4225</a></span>
+          <div class="practice">
+            <span class="name">Eye Center of Northern Colorado</span>
+          </div>
+          <a class="phone" href="tel:+19702212222">(970) 221-2222</a>
         </li>
         <li>
-          <span class="name">Southwest Eye Consultants</span>
-          <span class="detail"><a href="tel:+19708282200">(970) 828-2200</a></span>
+          <div class="practice">
+            <span class="name">Eye Care Center of Northern Colorado</span>
+          </div>
+          <a class="phone" href="tel:+13037723300">(303) 772-3300</a>
+        </li>
+      </ul>
+    </div>
+    <div class="city-group" id="durango">
+      <h3>Durango</h3>
+      <ul class="practice-list">
+        <li>
+          <div class="practice">
+            <span class="name">Four Corners Eye Clinic</span>
+          </div>
+          <a class="phone" href="tel:+19705074225">(970) 507-4225</a>
+        </li>
+        <li>
+          <div class="practice">
+            <span class="name">Southwest Eye Consultants</span>
+          </div>
+          <a class="phone" href="tel:+19708282200">(970) 828-2200</a>
         </li>
       </ul>
     </div>
@@ -146,55 +200,65 @@
 
   <section class="provider-region" id="utah" aria-labelledby="utah-heading">
     <h2 id="utah-heading">Utah Retina Practices</h2>
-
-    <div class="city-group">
-      <h3 id="northern-utah">Northern Utah</h3>
-      <ul class="provider-grid">
+    <div class="city-group" id="northern-utah">
+      <h3>Northern Utah</h3>
+      <ul class="practice-list">
         <li>
-          <span class="name">Retina Associates of Utah</span>
-          <span class="detail"><a href="tel:+18008738462">(800) 873-8462</a></span>
+          <div class="practice">
+            <span class="name">Retina Associates of Utah</span>
+          </div>
+          <a class="phone" href="tel:+18008738462">(800) 873-8462</a>
         </li>
         <li>
-          <span class="name">Retina and Vitreous Surgeons of Utah</span>
-          <span class="detail"><a href="tel:+18013577704">(801) 357-7704</a></span>
+          <div class="practice">
+            <span class="name">Retina and Vitreous Surgeons of Utah</span>
+          </div>
+          <a class="phone" href="tel:+18013577704">(801) 357-7704</a>
         </li>
         <li>
-          <span class="name">Salt Lake Retina</span>
-          <span class="detail"><a href="tel:+18012600034">(801) 260-0034</a></span>
+          <div class="practice">
+            <span class="name">Salt Lake Retina</span>
+          </div>
+          <a class="phone" href="tel:+18012600034">(801) 260-0034</a>
         </li>
         <li>
-          <span class="name">Rocky Mountain Retina Consultants</span>
-          <span class="detail"><a href="tel:+18012644444">(801) 264-4444</a></span>
+          <div class="practice">
+            <span class="name">Rocky Mountain Retina Consultants</span>
+          </div>
+          <a class="phone" href="tel:+18012644444">(801) 264-4444</a>
         </li>
         <li>
-          <span class="name">Moran Eye Center</span>
-          <span class="detail"><a href="tel:+18015812352">(801) 581-2352</a></span>
+          <div class="practice">
+            <span class="name">Moran Eye Center</span>
+          </div>
+          <a class="phone" href="tel:+18015812352">(801) 581-2352</a>
         </li>
       </ul>
     </div>
-    <div class="city-group">
-      <h3 id="southern-utah">Southern Utah</h3>
-      <ul class="provider-grid">
+    <div class="city-group" id="southern-utah">
+      <h3>Southern Utah</h3>
+      <ul class="practice-list">
         <li>
-          <span class="name">Retina Associates of Southern Utah</span>
-          <span class="detail"><a href="tel:+14352167032">(435) 216-7032</a></span>
+          <div class="practice">
+            <span class="name">Retina Associates of Southern Utah</span>
+          </div>
+          <a class="phone" href="tel:+14352167032">(435) 216-7032</a>
         </li>
       </ul>
     </div>
   </section>
 
-  <hr class="rule">
+  <p class="disclaimer">This list is offered as a convenience for our patients and is not an endorsement of any particular practice. Please verify insurance coverage and availability with the office directly.</p>
 
-  <p class="note" style="border: 0; padding-top: 0;">This list is offered as a convenience for our patients and is not an endorsement of any particular practice. Please verify insurance coverage and availability with the office directly.</p>
-
-  <p><a href="index.html">&larr; Back to home</a></p>
+  <p class="back"><a href="index.html">&larr; Back to home</a></p>
 
 </main>
 
 <footer>
   <div class="footer-inner">
-    <p>The Retina Center of Western Colorado</p>
-    <p>Phone 970-255-7065 &middot; Fax 970-255-7076</p>
+    <p class="footer-name">The Retina Center of Western Colorado</p>
+    <p>Phone <a href="tel:+19702557065">970-255-7065</a> &middot; Fax 970-255-7076</p>
+    <p>2478 Patterson Road #7, Grand Junction, CO 81505</p>
   </div>
 </footer>
 
